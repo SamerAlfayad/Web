@@ -1,0 +1,52 @@
+.carou-item{
+  text-align: center;
+}
+
+.carou-item-icon{
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  background: #ecf6ff;
+  border-radius: 50%;
+  color: #0563bb;
+  line-height: 60px;
+  font-size: 25px;
+}
+
+.carou-item-name{
+  font-weight: 600;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.carou-item-desc{
+  max-width: 400px;
+  margin: auto;
+  color: #333;
+  font-size: 17px;
+}
+
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.owl-dot{
+  width: 14px;
+  height: 14px;
+  background: #808080 !important;
+  margin: 0 6px;
+  border-radius: 14px;
+  outline: none;
+  transition: .3s linear;
+}
+
+.owl-dot.active{
+  width: 36px;
+  background: #0563bb !important;
+}
+
+.owl-dot:hover{
+  width: 36px;
+  background: #0563bb !important;
+}
